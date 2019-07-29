@@ -1,14 +1,24 @@
 <template>
 	<div class="home">
-        <ku-button size="small" type="primary" round>hhhh</ku-button>
-    </div>
+		<tom-button
+		 size="medium"
+		 type="primary"
+		 disabled
+		 @click="handleClick"
+		>hhhh</tom-button>
+	</div>
 </template>
 
 <script>
-	import KuButton from './src/button.vue'
-	export default {
-		components: {
-			KuButton
-		}
-	}
+import TomButton from './src/Button/Button.vue'
+export default {
+  components: {
+    TomButton
+  },
+  methods: {
+    handleClick() {
+      console.log(888)
+    }
+  }
+}
 </script>
