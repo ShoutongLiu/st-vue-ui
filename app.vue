@@ -1,11 +1,6 @@
 <template>
 	<div class="home">
-		<tom-button
-		 size="medium"
-		 type="primary"
-		 disabled
-		 @click="handleClick"
-		>hhhh</tom-button>
+		<tom-button size="medium" type="primary" disabled @click="handleClick">按钮</tom-button>
 	</div>
 </template>
 
@@ -17,7 +12,7 @@ export default {
   },
   methods: {
     handleClick() {
-      console.log(888)
+      console.log('test')
     }
   }
 }

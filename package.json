@@ -1,11 +1,12 @@
 {
   "name": "st-vue-ui",
-  "version": "1.0.1",
-  "description": "基于Vue的UI组件",
+  "version": "1.0.4",
+  "description": "基于Vue的UI插件",
   "main": "lib/st-vue-ui.js",
   "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js"
   },
   "keywords": [
     "vue",
@@ -15,8 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "rollup-plugin-commonjs": "^10.0.1",
-    "rollup-plugin-vue": "^5.0.1",
-    "vue": "^2.6.10"
+    "rollup-plugin-vue": "^5.0.1"
   },
   "devDependencies": {
     "vue-template-compiler": "^2.6.10"
