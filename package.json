@@ -1,6 +1,6 @@
 {
   "name": "st-vue-ui",
-  "version": "1.0.4",
+  "version": "1.1.2",
   "description": "基于Vue的UI插件",
   "main": "lib/st-vue-ui.js",
   "private": false,

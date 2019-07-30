@@ -2,7 +2,7 @@ import vue from 'rollup-plugin-vue';
 import commonjs from 'rollup-plugin-commonjs';
 
 export default {
-  input: 'src/Button/index.js',
+  input: 'src/index.js',
   output: {
     file: 'lib/st-vue-ui.js',
     format: 'cjs'

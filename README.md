@@ -10,8 +10,8 @@ npm install st-vue-ui --save
 
 ```js
 // main.js
-import TomButton from 'st-vue-ui'
-Vue.use(TomButton)
+import StVueUi from 'st-vue-ui'
+Vue.use(StVueUi)
 ```
 
 ```js

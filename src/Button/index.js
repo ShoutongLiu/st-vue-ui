@@ -1,8 +1,8 @@
-import Button from './Button.vue'
-const TomButton = {
-    install(Vue, options) {
-        Vue.component('tom-button', Button)
-    }
-}
+import TomButton from './Button.vue'
+
+TomButton.install = function(Vue) {
+  Vue.component(TomButton.name, TomButton);
+};
+
 
 export default TomButton
