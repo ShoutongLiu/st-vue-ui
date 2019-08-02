@@ -10,8 +10,8 @@ npm install st-vue-ui --save
 
 ```js
 // main.js
-import StVueUi from 'st-vue-ui'
-Vue.use(StVueUi)
+import TomButton from 'st-vue-ui'
+Vue.use(TomButton)
 ```
 
 ```js
@@ -29,6 +29,3 @@ Vue.use(StVueUi)
 |   type   |     类型     | string  | primary / success / warning / danger / info |   —    |
 |  round   | 是否圆角按钮 | boolean |                      —                      | false  |
 | disabled | 是否禁用状态 | boolean |                      —                      | false  |
-
-
-
