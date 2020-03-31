@@ -1,0 +1,177 @@
+{
+  "id": "813185",
+  "name": "wyMusic",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "995255",
+      "name": "eye",
+      "font_class": "yanjing",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "7070586",
+      "name": "正在播放",
+      "font_class": "zhengzaibofang1",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "7724947",
+      "name": "小程序码",
+      "font_class": "xiaochengxuma",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "10009139",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "12552967",
+      "name": "Icon - Keyboard Arrow - Down - Rounded",
+      "font_class": "arrow-down",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "1169336",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e7d2",
+      "unicode_decimal": 59346
+    },
+    {
+      "icon_id": "2116294",
+      "name": "分享",
+      "font_class": "share_icon",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "7404517",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e785",
+      "unicode_decimal": 59269
+    },
+    {
+      "icon_id": "8348120",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e71b",
+      "unicode_decimal": 59163
+    },
+    {
+      "icon_id": "1813248",
+      "name": "排行榜 选中",
+      "font_class": "paihangbangxuanzhong",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "1956095",
+      "name": "电台",
+      "font_class": "diantai",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "4584691",
+      "name": "摄像头",
+      "font_class": "shexiangtou",
+      "unicode": "ed9e",
+      "unicode_decimal": 60830
+    },
+    {
+      "icon_id": "5954693",
+      "name": "歌单",
+      "font_class": "gedan",
+      "unicode": "e78b",
+      "unicode_decimal": 59275
+    },
+    {
+      "icon_id": "5466035",
+      "name": "edit",
+      "font_class": "edit",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
+      "icon_id": "705706",
+      "name": "播放",
+      "font_class": "bofang1",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "6240513",
+      "name": "暂停",
+      "font_class": "zanting1",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "5810231",
+      "name": "play",
+      "font_class": "play1",
+      "unicode": "e7f6",
+      "unicode_decimal": 59382
+    },
+    {
+      "icon_id": "1725605",
+      "name": "错",
+      "font_class": "cuo",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "6539429",
+      "name": "日历",
+      "font_class": "rili1",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "688097",
+      "name": "上一首 上一个",
+      "font_class": "shangyishoushangyige",
+      "unicode": "e78a",
+      "unicode_decimal": 59274
+    },
+    {
+      "icon_id": "688128",
+      "name": "下一个 下一首",
+      "font_class": "xiayigexiayishou",
+      "unicode": "e7a5",
+      "unicode_decimal": 59301
+    },
+    {
+      "icon_id": "426588",
+      "name": "搜索",
+      "font_class": "sousuo-copy",
+      "unicode": "e8bb",
+      "unicode_decimal": 59579
+    },
+    {
+      "icon_id": "1031662",
+      "name": "听歌识曲",
+      "font_class": "tinggeshiqu",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "5773798",
+      "name": "正在播放",
+      "font_class": "zhengzaibofang",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

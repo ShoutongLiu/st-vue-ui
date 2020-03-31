@@ -1,25 +1,25 @@
 {
-  "name": "st-vue-ui",
-  "version": "1.1.2",
-  "description": "基于Vue的UI插件",
-  "main": "lib/st-vue-ui.js",
-  "private": false,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c rollup.config.js"
-  },
-  "keywords": [
-    "vue",
-    "UI"
-  ],
-  "author": "shoutong",
-  "license": "MIT",
-  "dependencies": {
-    "async-validator": "^2.0.1",
-    "rollup-plugin-commonjs": "^10.0.1",
-    "rollup-plugin-vue": "^5.0.1"
-  },
-  "devDependencies": {
-    "vue-template-compiler": "^2.6.10"
-  }
+    "name": "stom-vue-ui",
+    "version": "1.1.3",
+    "description": "基于Vue的UI插件",
+    "main": "lib/st-vue-ui.js",
+    "private": false,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rollup -c rollup.config.js"
+    },
+    "keywords": [
+        "vue",
+        "UI"
+    ],
+    "author": "shoutong",
+    "license": "MIT",
+    "dependencies": {
+        "async-validator": "^2.0.1",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-vue": "^5.1.6"
+    },
+    "devDependencies": {
+        "vue-template-compiler": "^2.6.10"
+    }
 }
