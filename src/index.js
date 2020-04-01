@@ -9,6 +9,7 @@ import TIput from './Input/Input.vue'
 import TRadio from './Radio/Radio.vue'
 import TRadioGroup from './RadioGroup/Radiogroup.vue'
 import TSwitch from './Switch/Switch.vue'
+import TIcon from './Icon/Icon.vue'
 
 const components = [
     TButton,
@@ -20,7 +21,8 @@ const components = [
     TIput,
     TRadio,
     TRadioGroup,
-    TSwitch
+    TSwitch,
+    TIcon
 ]
 
 const install = function (Vue) {

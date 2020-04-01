@@ -4,7 +4,7 @@
         <div
             class="t-dialog_wrapper"
             v-show="visible"
-            @click="handleClose"
+            @click.self="handleClose"
         >
             <div
                 class="t-dialog"

@@ -1,6 +1,6 @@
 {
     "name": "stom-vue-ui",
-    "version": "1.1.3",
+    "version": "1.2.0",
     "description": "基于Vue的UI插件",
     "main": "lib/st-vue-ui.js",
     "private": false,
