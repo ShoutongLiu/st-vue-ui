@@ -7,6 +7,7 @@
             <i class="t-icon-cuo" v-if="clearable && value" @click="clearValue"></i>
             <i :class=" pwdVisiable ? 't-icon-yanjing active' : 't-icon-yanjing'" v-if="showPassword" @click="showPwd"></i>
         </span>
+    <span :class="`err-msg ${ hasVal ? 'hide' : 'show'}`">{{errMsg}}</span>
     </div>
 </template>
 
@@ -15,9 +16,11 @@ export default {
     name: 'TInput',
     data () {
         return {
-            pwdVisiable: false
+            pwdVisiable: false,
+            hasVal: true
         }
     },
+    inject: ['formItem'],
     props: {
         type: {
             type: String,
@@ -51,11 +54,20 @@ export default {
     computed: {
         showSuffix() {
             return this.clearable || this.showPassword
+        },
+        errMsg() {
+            if (this.formItem.rules.require) {
+                return this.formItem.rules.message
+            }
         }
     },
     methods: {
         handleInput(e) {
-            this.$emit('input', e.target.value)
+            const value = e.target.value
+            if (this.formItem.rules.trigger === 'change' || this.formItem.rules.trigger.includes('change')) {
+                this.hasVal = value === '' ? false : true
+            }
+            this.$emit('change', e)
         },
         clearValue() {
             this.$emit('input', '')
@@ -102,6 +114,28 @@ export default {
             color: #c0c4cc;
             cursor:not-allowed;
         }
+    }
+    .err-msg {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        color: #f56c6c;
+        font-size: 12px;
+        padding-top: 0px;
+        line-height: 1;
+        opacity: 0;
+    }
+
+    .err-msg.show {
+        opacity: 1;
+        padding-top: 4px;
+        transition: all .3s;
+    }
+
+    .err-msg.hide {
+        opacity: 0;
+        padding-top: 0px;
+        transition: all .3s;
     }
 }
 // 后面加suffix的意思是后面如果有后缀的话，触发该样式

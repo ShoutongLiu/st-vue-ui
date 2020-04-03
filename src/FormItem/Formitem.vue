@@ -7,21 +7,40 @@
     </div>
 </template>
 <script>
+import AsyncValidator from 'async-validator'
 export default {
     name: 'TFormItem',
+    data() {
+        return {
+            validateState:'',
+            validator: {}
+        }
+    },
     props: {
         label: {
             type: String,
             default: ''
-        }
+        },
+        rules: {
+            type: [Array, Object],
+            defalut: []
+        } 
     },
     inject: ['Form'],
+    provide() {
+        return {
+            formItem: this
+        }
+    },
     computed: {
         labelStyle () {
             return {
                 width: this.Form.labelWidth
             }
         }
+    },
+    mounted() {
+        this.validate('change')
     }
 }
 </script>
